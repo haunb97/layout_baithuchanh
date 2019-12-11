@@ -1,0 +1,64 @@
+body{
+    font-family: Arial ;
+}
+
+
+
+#main{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #0117ff;
+}
+
+#head{
+    position:fixed;
+    height: 100px;
+    width: 100%;
+    background: crimson;
+}
+
+#href-link{
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    background: antiquewhite;
+    margin-top: 110px;
+}
+
+#left{
+    position: fixed;
+    height: 500px;
+    width: 10%;
+    background: blueviolet;
+    margin-top:180px;
+    float: left;
+}
+
+#content{
+    position: relative;
+    height: 700px;
+    width: 73%;
+    margin-left: 11%;
+    margin-top: 180px;
+    background: #fffd0c;
+    float: left;
+}
+#right{
+    position: fixed;
+    height: 500px;
+    width: 15%;
+    margin-top: 180px;
+    margin-left: 85%;
+    background: crimson;
+}
+
+#footer{
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+    background: green;
+}
